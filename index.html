@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kings of the Blues Trivia Game</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+<div class="container-fluid linear-gradient">
+<div class="page-header">
+  <h1 class="text-center">Three Kings of the Blues: B.B., Albert, and Freddie </h1>
+  <h2 class="text-center" id="show-number">Time Remaining: 30</h2>
+  <div class="text-center" id="scoreBoard">
+        <div><h4>correct answers go here</h4></div>
+        <div><h4>wrong answers go here</h4></div>
+        <div><h4>unanswered questions go here</h4></div>
+        </div>
+</div>
+<div class="row">
+ <div class="col-md-4">
+    <div class="thumbnail">
+      <img src="images/albertking.jpeg" alt="Albert King">
+      <div class="caption text-center">
+        <h3>Albert King</h3>
+        <h4>April 25, 1923 - Dec. 21, 1992</h4>
+        <p><a href="http://www.allmusic.com/artist/albert-king-mn0000617844/discography" class="btn btn-primary" role="button" target ="_blank"> Albert King discography</a></p>
+      </div>
+    </div>
+  </div>
+  <div class= "col-md-4">
+    <div class="thumbnail">
+      <img src="images/freddieking.jpeg" alt="Freddie King">
+      <div class="caption text-center">
+        <h3>Freddie King</h3>
+        <h4>Sept. 3, 1934 - Dec. 28, 1976 </h4>
+        <p><a href="http://www.allmusic.com/artist/freddie-king-mn0000186734/discography" class="btn btn-primary" role="button" target ="_blank">Freddie King discography</a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <img src="images/bbking.jpeg" alt="B.B. King">
+      <div class="caption text-center">
+        <h3>B.B. King</h3>
+        <h4>Sept 16, 1925 - May 14, 2015</h4>
+        <p><a href="http://www.allmusic.com/artist/bb-king-mn0000059156/discography" class="btn btn-primary" role="button" target="_blank"> B.B. King discography</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+    	<div class="col-md-12 intro">
+    		<h3 class="text-center">What do you know about Freddie King, Albert King,  B.B. King?</h3>
+        <div class="row">
+        <div class="col-sm-12 text-center" id="timer">
+        <button type ="button" class="button" id="startButton"> Click to start the quiz</button>
+
+        </div>
+      </div>
+  
+<div class="row" id="Freddie King">
+  <div class="col-md-4 question">
+    <h4 class="text-left">Freddie King was born in:</h4>
+
+    <p><input type="radio" class="answer" name = "multipleChoice1" value="wrong">Arkansas
+    <input type="radio"  class="answer" name = "multipleChoice1" value="wrong">Alabama
+    <input type="radio"  class="answer" name = "multipleChoice1" value="correct">Texas</p>
+   
+</div>
+  <div class="col-md-4 question">
+    <h4 class= "text-left">Freddie King moved to Chicago at:</h4>
+      
+        <p><input type="radio" class="answer" name = "multipleChoice2" value="wrong">7
+        <input type="radio" class="answer" name = "multipleChoice2" value="correct">16
+        <input type="radio" class="answer" name = "multipleChoice2" value="wrong">22</p>
+    </div>
+    <div class="col-md-4 question">
+    <h4 class= "text-left">Freddie King's first hit was:</h4>
+       <div>
+       <p> <input type="radio" class="answer" name = "multipleChoice3" value="correct">Hide Away
+         <input type="radio" class="answer" name = "multipleChoice3" value="wrong">Woman Across the River
+         <input type="radio" class="answer" name = "multipleChoice3" value="wrong">Tore Down</p>
+      </div>
+    </div>
+  
+  </div>
+<div class="row" id="Albert King">
+   <div class="col-md-4 question">
+    <h4 class="text-left">Albert King was raised in:</h4>
+       <p><input type="radio" class="answer" name = "multipleChoice4" value="correct">Arkansas
+        <input type="radio" class="answer" name = "multipleChoice4" value="wrong">Alabama
+        <input type="radio" class="answer" name = "multipleChoice4" value="wrong">Mississippi></p>
+      </div>
+   
+  <div class="col-md-4 question">
+    <h4 class= "text-left">Albert King's real last name was:</h4>
+       <p><input type="radio" class="answer" name = "multipleChoice5" value="wrong">Jackson
+       <input type="radio" class="answer" name = "multipleChoice5" value="wrong">Williams
+        <input type="radio" class="answer" name = "multipleChoice5" value="correct">Nelson</p>
+      </div>
+  <div class="col-md-4 question">
+    <h4 class= "text-left">When Albert King left the South, he went to:</h4>
+        <p><input type="radio" class="answer" name = "multipleChoice6" value="wrong">Chicago
+        <input type="radio" class="answer" name = "multipleChoice6" value="correct">St. Louis
+        <input type="radio" class="answer" name = "multipleChoice6" value="wrong">Detroit</p>
+      </div>
+</div>
+  </div>
+  <div class="row" id="B.B. King">
+  <div class="col-md-4 question">
+    <h4 class= "text-left">B.B. King's first name is:</h4>
+       <p><input type="radio" class="answer" name = "multipleChoice7" value="wrong">James
+        <input type="radio" class="answer" name = "multipleChoice7" value="wrong">Robert
+        <input type="radio" class="answer" name = "multipleChoice7" value="correct">Riley</p>
+      </div>
+
+  <div class="col-md-4 question">
+    <h4 class= "text-left">B.B. King's playing style is influenced by:</h4>
+       <p><input type="radio" class="answer" name = "multipleChoice8" value="correct">Jazz
+        <input type="radio" class="answer" name = "multipleChoice8" value="wrong">Country
+       <input type="radio" class="answer"  name = "multipleChoice8" value="wrong">Negro Spirituals</p>
+      </div>
+
+ <div class="col-md-4 question">
+    <h4 class= "text-left"> B.B. King's guitar is named after:</h4>
+        <p><input type="radio" class="answer" name = "multipleChoice9" value="wrong">His wife
+        <input type="radio" class="answer" name = "multipleChoice9" value="wrong">His mother
+       <input type="radio" class="answer" name = "multipleChoice9" value="correct">A lady who caused a fight</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+        <button type ="button" class="button" id="stopButton"> Click! You made it to the end</button>
+        </div>
+        </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src ="assets/javascript/apps2.js"></script>
+
+	
+</body>
+</html>
